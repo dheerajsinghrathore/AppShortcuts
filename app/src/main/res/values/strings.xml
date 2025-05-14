@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppShortcutsCompose</string>
+    <string name="title_activity_support">SupportActivity</string>
+    <string name="title_activity_bookride">BookRideActivity</string>
+    <string name="shortcut_label_support">Support</string>
+    <string name="shortcut_long_label_support">Contact Support</string>
+    <string name="shortcut_label_ride">Book Ride</string>
+    <string name="shortcut_long_label_ride">Quickly book a ride</string>
+    <string name="title_activity_my">MyActivity</string>
+</resources>

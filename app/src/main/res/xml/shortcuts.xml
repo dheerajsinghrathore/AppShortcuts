@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_support"
+        android:shortcutId="support"
+        android:shortcutLongLabel="@string/shortcut_long_label_support"
+        android:shortcutShortLabel="@string/shortcut_label_support">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.dheeraj.appshortcuts.activity.SupportActivity"
+            android:targetPackage="com.dheeraj.appshortcuts" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_bug"
+        android:shortcutId="book_ride"
+        android:shortcutLongLabel="@string/shortcut_long_label_ride"
+        android:shortcutShortLabel="@string/shortcut_label_ride">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.dheeraj.appshortcuts.activity.BookRideActivity"
+            android:targetPackage="com.dheeraj.appshortcuts" />
+    </shortcut>
+</shortcuts>
+
